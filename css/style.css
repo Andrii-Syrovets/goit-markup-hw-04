@@ -175,15 +175,15 @@ img {
     margin-right: 10px;
  }
  
- .mail {
+ /* .mail {
     width: 16px;
     height: 12px;
- }
+ } */
 
- .phone {
+ /* .phone {
      width: 10px;
      height: 16px;
- }
+ } */
 
 /*=================Banner===========*/
 .banner {
@@ -452,16 +452,16 @@ display: flex;
     height: 43px;
 }
 .klient4 {
-    width: 170px;
-    height: 90px;
+    width: 80px;
+    height: 42px;
 }
 .klient5 {
     width: 59px;
     height: 47px;
 }
 .klient6 {
-    width: 170px;
-    height: 90px;
+    width: 88px;
+    height: 45px;
 }
 
 .klient-box {
@@ -704,12 +704,22 @@ margin-bottom: 20px;
     align-content: flex-start;
     margin-top: 30px;
     border: 1px solid var(--border-galerry-color);
-
+    /* overflow: hidden; */
 
 }
-.gallery-list-item:hover {
+.gallery-list-item:hover{
+/* .gallery-list-item:focus { */
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
+}
+.gallery-list-link{
+    display: block;
+}
+
+.gallery-list-link:focus,
+.gallery-list-link:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  
 }
 
 /*.gallery-list-item:nth-child(3n+2) {
@@ -719,6 +729,7 @@ margin-bottom: 20px;
 
 .gallery-text-container {
     padding: 20px 24px;
+    width: 370px;
 }
 
 
