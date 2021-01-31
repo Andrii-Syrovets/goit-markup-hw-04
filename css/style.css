@@ -130,21 +130,16 @@ img {
     justify-content: center;
     align-items: center;
     align-content: center;
-
-    
-
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus {
     color: var(--active-color);    
-
 }
 
 /*================Addres header=========*/
 .header-address{
     margin-left: auto;
-
     font-style: normal;
     display: flex;
 }
@@ -163,7 +158,6 @@ img {
     align-content: center;
 }
 
-
 .site-address-list:hover,
 .site-address-list:focus {
     color: var(--active-color);    
@@ -175,17 +169,6 @@ img {
     margin-right: 10px;
  }
  
- /* .mail {
-    width: 16px;
-    height: 12px;
- } */
-
- /* .phone {
-     width: 10px;
-     height: 16px;
- } */
-
-/*=================Banner===========*/
 .banner {
     background: var(--banner-footer-background);
     flex-grow: 1;
@@ -197,12 +180,6 @@ img {
     background-size: cover;
     max-width: 1600px;
 }
-
-.banner-block {
-    
-}
-
-
 
 .banner-title {
     font-weight: 900;
